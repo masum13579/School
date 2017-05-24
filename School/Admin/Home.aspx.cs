@@ -18,5 +18,10 @@ namespace School.Admin
         {
             Response.Redirect("BoardOfDirector.aspx");
         }
+
+        protected void Teachers_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("Teacher.aspx");
+        }
     }
 }

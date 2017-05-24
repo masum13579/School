@@ -29,7 +29,7 @@
                 <h5 class="text-info">Board Of Director</h5>
             </div>
             <div class="col-md-2 text-center">
-                <asp:ImageButton ID="Teachers" runat="server" ImageUrl="../Content/Images/green-button.png" Height="100px" />
+                <asp:ImageButton ID="Teachers" runat="server" ImageUrl="../Content/Images/green-button.png" Height="100px" OnClick="Teachers_Click" />
                 <h5 class="text-info">Teacher</h5>
             </div>
             <div class="col-md-2 text-center">

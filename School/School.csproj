@@ -133,18 +133,22 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Images\Teacher\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Admin\BoardOfDirector.aspx" />
     <Content Include="Admin\EditAdmin.aspx" />
+    <Content Include="Admin\Employee.aspx" />
     <Content Include="Admin\Home.aspx" />
     <Content Include="Admin\Login.aspx" />
     <Content Include="Admin\LogOut.aspx" />
+    <Content Include="Admin\Teacher.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\calendar.png" />
     <Content Include="Content\Images\green-button.png" />
     <Content Include="Content\Images\PBU.png" />
     <Content Include="Content\master.css" />
@@ -230,6 +234,13 @@
     <Compile Include="Admin\EditAdmin.aspx.designer.cs">
       <DependentUpon>EditAdmin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Employee.aspx.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Employee.aspx.designer.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -250,6 +261,13 @@
     </Compile>
     <Compile Include="Admin\LogOut.aspx.designer.cs">
       <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Teacher.aspx.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Teacher.aspx.designer.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
